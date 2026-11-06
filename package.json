@@ -1,6 +1,7 @@
 {
   "name": "sorteo-parroquia-niza",
   "version": "1.0.0",
+  "description": "Sorteo solidario jamon mision ad gentes",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
