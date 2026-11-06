@@ -162,8 +162,7 @@
                     grid.appendChild(btn);
                 });
             } catch (e) {
-                console.warn("Servidor backend durmiendo o cargando, generando vista de respaldo local...", e);
-                // Respaldo visual por si el servidor está arrancando en Render
+                console.warn("Servidor backend cargando, generando vista de respaldo...", e);
                 grid.innerHTML = '';
                 for (let i = 0; i < 1000; i++) {
                     const numStr = String(i).padStart(3, '0');
